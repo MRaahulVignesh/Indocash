@@ -22,4 +22,5 @@ class TransactionMiner{
     }
 }
 
+
 module.exports = TransactionMiner;
