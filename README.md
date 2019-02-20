@@ -3,11 +3,10 @@
 ##### Cryptocurrency project.
 
 Indo-Cash(IC) is a bitcoin coin based cryptocurrency which is specially designed to suit the indian market.
-If Peer A wants to transfer cash to Peer B, then he will use the public key of Peer B to transfer the credit. Each wallet consists of public key and private key. One peer can access his wallet only with the private key. All the keys are hashed to secure the transactions.
-The proof-of-work algoritm has been incorporated to secure the transaction network. A miner has to mine the transactions to valid them. Mining Reward will be will awarded to the miner who can find the nonce for the block.
+If Peer A wants to transfer cash to Peer B, then he will use the public key of Peer B to transfer the credit. Each wallet consists of public key and private key. One peer can access his wallet only with the private key. All the keys are cryptographically hashed to secure the transactions.The proof-of-work algoritm has been incorporated to secure the transaction network. There is a transaction pool which contains all the non-validated transactions. Every peer(Miner) in the network can competate to validate the transactions. When the Miner can find the Nonce for the block(which ultimately gets added to the blockchain) and validate transactions, he will be awarded with the transaction reward.
 
-Mining reward: IC 50.
-Mining Time: 1 min.
+######### Mining reward: IC 50.
+######### Mining Time: 1 min.
 
 
 
